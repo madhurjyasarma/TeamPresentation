@@ -1,4 +1,5 @@
-# TeamPresentation - S.O.L.I.D. and 
+# TeamPresentation - S.O.L.I.D.
+## Java Code, PPT and Explaination in the repo.
 ## Team Members - Madhurjya Goutam sarma, Chandan kumar, Sourav Mittal, Jayesh Pagare
 
 
@@ -16,7 +17,7 @@ Dependency Inversion Principle: High-level modules should not depend on low-leve
 
 These principles can help you design software that is more flexible, maintainable, and easy to understand.
 
-###Single Responsibility Principle
+### Single Responsibility Principle
 ```
 class Circle:
     def __init__(self, radius):
@@ -29,7 +30,7 @@ class Circle:
 # for calculating the area and circumference of the circle.
 ```
 
-###Open-Closed Principle
+### Open-Closed Principle
 ```
 class Shape:
     def area(self):
@@ -50,7 +51,7 @@ class Circle(Shape):
 # class itself to add new shapes).
 ```
 
-###Liskov Principle
+### Liskov Principle
 ```
 class Rectangle:
     def __init__(self, width, height):
@@ -71,7 +72,7 @@ class Square(Rectangle):
 # behavior than the rectangle's area method.
 ```
 
-###Interface Segregation Principle
+### Interface Segregation Principle
 ```
 class Shape:
     def area(self):
@@ -87,7 +88,7 @@ class Circle(Shape):
 # circle does not have a perimeter. This violates the Interface Segregation Principle.
 ```
 
-###Dependency Inversion Principle
+### Dependency Inversion Principle
 ```
 class Circle:
     def __init__(self, radius):
